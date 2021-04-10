@@ -107,6 +107,14 @@ body {
     color: var(--primary);
 }
 
+.aTagStyler{
+    text-decoration: none;
+    color: var(--primary);
+}
+.aTagStyler:hover{
+    color: var(--primary);
+}
+
 #person-img {
     background-image: url('../images/me.png');
     background-repeat: no-repeat;
@@ -119,11 +127,18 @@ body {
     content: '';
     position: absolute;
     width: 30%;
-    height: 40vh;
+    height: 60vh;
     background-color: var(--primary);
     border-radius: 30% 70% 70% 30%/ 30% 40% 60% 70%;
     z-index: -1;
     transform: translateX(17%);
+}
+
+.linksSocialMedia{
+    color:var(--dark);
+}
+.linksSocialMedia:hover{
+    color: var(--secondary);
 }
 
 .title {
